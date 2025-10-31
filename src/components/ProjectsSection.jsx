@@ -12,7 +12,7 @@ const ProjectsSection = () => {
           </p>
           <div className="items-center flex gap-4">
             <div className="bg-yellow-400 dark:bg-yellow-500 h-2 w-32"></div>
-            <p className="text-xl font-bold text-gray-600 dark:text-gray-400">*Things I'm proud of</p>
+            <p className="text-xl font-bold text-gray-600 dark:text-gray-400">*Things I do, I've done and am proud of</p>
           </div>
         </div>
         <div className="lg:grid-cols-2 grid grid-cols-1 gap-8">
@@ -29,7 +29,7 @@ const ProjectsSection = () => {
                 <span className="px-4 py-2 bg-emerald-500 dark:bg-emerald-600 text-white font-bold text-sm border-2 border-gray-900 dark:border-emerald-400">Node.js</span>
                 <span className="px-4 py-2 bg-emerald-500 dark:bg-emerald-600 text-white font-bold text-sm border-2 border-gray-900 dark:border-emerald-400">MongoDB</span>
               </div>
-              <a href="/qNOz6mFgqjUpQUY9wH40#" className="items-center text-lg font-black text-gray-900 inline-flex dark:text-yellow-400 hover:translate-x-2 transition-transform">VIEW PROJECT →</a>
+              <a href="/project" className="items-center text-lg font-black text-gray-900 inline-flex dark:text-yellow-400 hover:translate-x-2 transition-transform">VIEW PROJECT →</a>
             </div>
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">

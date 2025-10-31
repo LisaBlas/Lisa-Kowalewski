@@ -13,7 +13,8 @@ const AboutSection = () => {
             </p>
             <div className="bg-yellow-400 dark:bg-yellow-500 h-3 w-40 mb-8 transform -rotate-2"></div>
             <div className="text-lg text-gray-700 font-semibold space-y-6 dark:text-gray-300">
-              <p className="pl-6 py-2 border-l-8 border-emerald-500 dark:border-emerald-600 text-2xl undefined sm:text-2xl font-semibold">My approach combines technical expertise with creative problem-solving. I believe the best products are born from understanding user needs deeply and iterating relentlessly. My approach combines technical expertise with creative problem-solving. I believe the best products are born from understanding user needs deeply and iterating relentlessly.</p>
+              <p className="pl-6 py-2 border-l-8 border-emerald-500 dark:border-emerald-600 text-2xl undefined sm:text-2xl font-semibold">In my design work, I focus on creating things that matter - solutions that actually solve problems and have real value for people. I care less about perfect pixels and more about building complete experiences that make sense from start to finish and can be sustained over time.</p>
+              <p className="pl-6 py-2 border-l-8 border-emerald-500 dark:border-emerald-600 text-2xl undefined sm:text-2xl font-semibold">My process is grounded in known best practices and real evidence - testing early and often to learn what works. I aim for that state between polish and purpose, where the design feels appropriate and is ready to deliver the desired impact.</p>
             </div>
           </div>
           <div className="space-y-8">
@@ -24,29 +25,29 @@ const AboutSection = () => {
                   <li className="items-start flex gap-4">
                     <span className="text-3xl font-black text-emerald-500 dark:text-yellow-400">→</span>
                     <div>
-                      <p className="text-2xl font-black text-gray-900 dark:text-white">Full-Stack Development</p>
-                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">End-to-end web application development</p>
+                      <p className="text-2xl font-black text-gray-900 dark:text-white">User Research and Testing</p>
+                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">Actionable quantitative and qualitative insights</p>
                     </div>
                   </li>
                   <li className="items-start flex gap-4">
                     <span className="text-3xl font-black text-emerald-500 dark:text-emerald-400">→</span>
                     <div>
-                      <p className="text-2xl font-black text-gray-900 dark:text-white">UI/UX Design</p>
-                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">User-centered design and prototyping</p>
+                      <p className="text-2xl font-black text-gray-900 dark:text-white">Service/UI/UX Design</p>
+                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">From individual touchpoints to holistic journeys</p>
                     </div>
                   </li>
                   <li className="items-start flex gap-4">
                     <span className="text-3xl font-black text-emerald-500 dark:text-yellow-400">→</span>
                     <div>
-                      <p className="text-2xl font-black text-gray-900 dark:text-white">Technical Consulting</p>
-                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">Architecture and scalability solutions</p>
+                      <p className="text-2xl font-black text-gray-900 dark:text-white">Workshops and Facilitation</p>
+                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">Developing and leading workshops (for all ages)</p>
                     </div>
                   </li>
                   <li className="items-start mb-2 flex gap-4">
                     <span className="text-3xl font-black text-emerald-500 dark:text-emerald-400">→</span>
                     <div>
-                      <p className="text-2xl font-black text-gray-900 dark:text-white">Workshops &amp; Training</p>
-                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">Team upskilling and mentorship</p>
+                      <p className="text-2xl font-black text-gray-900 dark:text-white">Strategic Design and Visioning</p>
+                      <p className="text-gray-600 font-semibold text-xl dark:text-gray-400">Tackling systems and imagining possibilities</p>
                     </div>
                   </li>
                 </ul>
@@ -54,12 +55,12 @@ const AboutSection = () => {
             </div>
             <div className="bg-yellow-400 dark:bg-yellow-500 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] border-6 border-gray-900 dark:border-emerald-600 p-8 dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] transform rotate-1">
               <div className="transform -rotate-1">
-                <p className="text-5xl font-black text-gray-900 mb-6">LET'S TALK!</p>
+                <p className="text-4xl font-black text-gray-900 mb-6">LET'S TALK!</p>
                 <p className="text-2xl font-semibold text-gray-900 mb4'">Got a project in mind? I'd love to hear about it:</p>
                 <div className="space-y-4">
                   <div className="items-center flex gap-4 text-3xl">
                     <div>
-                      <a href="mailto:hello@developer.com" className="text-2xl font-bold text-gray-900 break-all hover:text-white transition-colors">hello@developer.com</a>
+                      <a href="mailto:hello@developer.com" className="text-2xl font-bold text-gray-900 break-all hover:text-white transition-colors">lisa.kowalewski.designs@gmail.com</a>
                     </div>
                   </div>
                 </div>
