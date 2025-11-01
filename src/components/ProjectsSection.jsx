@@ -1,5 +1,10 @@
 import React from "react";
 import bundid from './Images/bundid.jpg';
+import koln from './Images/koln.jpg';
+import foster from './Images/foster.png';
+import steuer from './Images/steuer.jpg';
+import tele from './Images/tele.png';
+import test from './Images/test.JPG';
 
 const ProjectsSection = () => {
   return (
@@ -51,7 +56,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img alt="Project 4" src="/Images/test.JPG" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img alt="Project 4" src={test} className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">Educational Materials</p>
@@ -66,7 +71,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img alt="Project 4" src="/Images/koln.jpg" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img alt="Project 4" src={koln} className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">Formularwerkstatt</p>
@@ -96,7 +101,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img alt="Project 4" src="/Images/steuer.jpg" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img alt="Project 4" src={steuer} className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">Steuerlotse für Rentner*innen</p>
@@ -111,7 +116,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img alt="Project 4" src="/Images/foster.png" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img alt="Project 4" src={foster} className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">Fostering Service Transformation</p>
@@ -127,7 +132,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img alt="Project 4" src="/Images/tele.png" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img alt="Project 4" src={tele} className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">Telecare Service Pilot</p>
