@@ -1,10 +1,10 @@
 import React from "react";
-import bundid from './Images/bundid.jpg';
-import koln from './Images/koln.jpg';
-import foster from './Images/foster.png';
-import steuer from './Images/steuer.jpg';
-import tele from './Images/tele.png';
-import test from './Images/test.JPG';
+import bundid from '../Images/bundid.jpg';
+import koln from '../Images/koln.jpg';
+import foster from '../Images/foster.png';
+import steuer from '../Images/steuer.jpg';
+import tele from '../Images/tele.png';
+import test from '../Images/test.JPG';
 
 const ProjectsSection = () => {
   return (
