@@ -1,6 +1,13 @@
 import React from "react";
 
 const HeroSection = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="items-center justify-center px-6 py-8 pt-40 min-h-screen flex relative" id="hero">
       <div className="mx-auto w-full max-w-7xl relative">
@@ -24,8 +31,18 @@ const HeroSection = () => {
             <p className="text-2xl md:text-3xl font-bold text-gray-700 mb-4 dark:text-gray-300">Because useful, responsible design matters.</p>
             <p className="text-xl font-semibold text-gray-600 mb-8 pl-4 dark:text-gray-400 border-l-4 border-emerald-500 dark:border-emerald-600">Freelance designer • Curious human • Urban farming enthusiast</p>
             <div className="flex flex-wrap gap-4">
-              <a href="/projects" className="px-8 py-4 bg-gray-900 dark:bg-yellow-500 text-white font-bold text-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:text-gray-900 border-4 border-gray-900 dark:border-yellow-500 hover:translate-x-1 hover:translate-y-1 transition-transform dark:shadow-[8px_8px_0px_0px_rgba(234,179,8,1)]">MY WORK</a>
-              <a href="/about" className="px-8 py-4 bg-white dark:bg-neutral-800 text-gray-900 font-bold text-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:text-yellow-400 border-4 border-gray-900 dark:border-yellow-500 hover:translate-x-1 hover:translate-y-1 transition-transform dark:shadow-[8px_8px_0px_0px_rgba(234,179,8,1)]">GET IN TOUCH</a>
+              <button 
+                onClick={() => scrollToSection('projects')}
+                className="px-8 py-4 bg-gray-900 dark:bg-yellow-500 text-white font-bold text-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:text-gray-900 border-4 border-gray-900 dark:border-yellow-500 hover:translate-x-1 hover:translate-y-1 transition-transform dark:shadow-[8px_8px_0px_0px_rgba(234,179,8,1)] cursor-pointer"
+              >
+                MY WORK
+              </button>
+              <button 
+                onClick={() => scrollToSection('about')}
+                className="px-8 py-4 bg-white dark:bg-neutral-800 text-gray-900 font-bold text-lg shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:text-yellow-400 border-4 border-gray-900 dark:border-yellow-500 hover:translate-x-1 hover:translate-y-1 transition-transform dark:shadow-[8px_8px_0px_0px_rgba(234,179,8,1)] cursor-pointer"
+              >
+                GET IN TOUCH
+              </button>
             </div>
           </div>
         </div>
