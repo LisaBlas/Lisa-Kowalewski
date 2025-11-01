@@ -11,7 +11,7 @@ const ProjectsSection = () => {
     <section className="py-32 px-6 bg-emerald-50 dark:bg-neutral-900 relative" id="projects">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16">
-          <p className="text-7xl md:text-8xl font-black text-gray-900 mb-4 leading-none dark:text-emerald-400 lg:grid-cols-2 grid grid-cols-1 gap-8">
+          <p className="text-7xl md:text-8xl font-black text-gray-900 mb-8 leading-none dark:text-emerald-400 lg:grid-cols-2 grid grid-cols-1">
             <span>SELECTED</span>
             <br />
             <span>PROJECTS*</span>

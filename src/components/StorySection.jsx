@@ -12,7 +12,7 @@ const StorySection = () => {
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="Windframe_aRk7cZc1Q"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /> </svg>
               DOWNLOAD CV (PDF)
             </a>
-            <p className="text-lg font-semibold text-gray-600 mt-6 dark:text-gray-400">Last updated: November 2025. English version coming soon!</p>
+            <p className="text-lg font-semibold text-gray-600 mt-6 dark:text-gray-400">Last updated: November 2025. Contact me for a german version.</p>
           </div>
         </div>
       </div>
