@@ -21,7 +21,8 @@ function App() {
 }
 
 createRoot(document.getElementById("root")).render(
-    <BrowserRouter>
+    <BrowserRouter basename="Lisa-Kowalewski">
         <App />
     </BrowserRouter>
 );
+
