@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from './Images/bundid.jpg';
+import bundid from './Images/bundid.jpg';
 
 const ProjectsSection = () => {
   return (
@@ -81,7 +81,7 @@ const ProjectsSection = () => {
           </div>
           <div className="bg-white dark:bg-neutral-800 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group border-6 border-gray-900 dark:border-emerald-600 overflow-hidden dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] dark:hover:shadow-[6px_6px_0px_0px_rgba(5,150,105,1)] transition-all duration-300">
             <div className="h-80 bg-emerald-100 dark:bg-emerald-900 relative overflow-hidden">
-              <img src={myImage} alt="description" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
+              <img src={bundid} alt="description" className="object-cover group-hover:scale-110 transition-transform duration-500 w-full h-full" />
             </div>
             <div className="p-8">
               <p className="text-4xl font-black text-gray-900 mb-3 dark:text-emerald-400">BundID Design Relaunch</p>
