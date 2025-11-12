@@ -5,6 +5,7 @@ import ProjectsSection from "@/ProjectsSection";
 import AboutSection from "@/AboutSection";
 import StorySection from "@/StorySection";
 import ScrollTopButton from "@/ScrollTopButton";
+import Footer from "@/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <ProjectsSection />
         <AboutSection />
         <StorySection />
+        <Footer />
         <ScrollTopButton />
       </div>
     </div>

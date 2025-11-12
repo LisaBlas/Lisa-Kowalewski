@@ -18,7 +18,7 @@ const HeroSection = () => {
             <div style={{backgroundImage: "repeating-linear-gradient(90deg, transparent, transparent 35px, rgba(0, 0, 0, 0.1) 35px, rgba(0, 0, 0, 0.1) 70px)"}} className="w-full h-full absolute top-0 left-0"></div>
           </div>
           <div className="transform -rotate-1 relative z-10">
-            <p className="text-8xl md:text-9xl font-black text-gray-900 mb-6 leading-none tracking-tight dark:text-emerald-400 relative">
+            <p className="text-6xl md:text-8xl lg:text-9xl font-black text-gray-900 mb-6 leading-none tracking-tight dark:text-emerald-400 relative">
               <span>DESIGN FOR</span>
               <br />
               <span>GOOD.</span>

@@ -11,7 +11,7 @@ const ProjectsSection = () => {
     <section className="py-32 px-6 bg-emerald-50 dark:bg-neutral-900 relative" id="projects">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16">
-          <p className="text-7xl md:text-8xl font-black text-gray-900 mb-8 leading-none dark:text-emerald-400 lg:grid-cols-2 grid grid-cols-1">
+          <p className="text-6xl md:text-8xl font-black text-gray-900 mb-8 leading-none tracking-tight dark:text-emerald-400">
             <span>SELECTED</span>
             <br />
             <span>PROJECTS*</span>
@@ -149,8 +149,8 @@ const ProjectsSection = () => {
           <div className="max-w-xl bg-yellow-400 dark:bg-yellow-500 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] border-6 border-gray-900 dark:border-emerald-600 p-8 dark:shadow-[12px_12px_0px_0px_rgba(5,150,105,1)] transform rotate-1">
                 <div className="transform -rotate-1">
                   <p className="text-2xl font-black text-gray-900 mb-2">LOOKING FOR SOMETHING SPECIFIC?</p>
-                  <p className="text-lg font-semibold text-gray-900 mb-4 ">Get in touch for more details on these or other projects.</p>
-                  <a href="mailto:lisa.kowalewski.designs@gmail.com" className="inline-block px-6 py-3 bg-white dark:bg-neutral-900 text-gray-900 dark:text-white font-bold text-lg border-3 border-gray-900 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 transition-transform">Email me</a>
+                  <p className="text-xl md:text-2xl font-semibold text-gray-900 mb-4 tracking:tight">Get in touch for more details on these or other projects.</p>
+                  <a href="mailto:lisa.kowalewski.designs@gmail.com" className="inline-block px-6 py-3 bg-white dark:bg-neutral-900 text-gray-900 dark:text-white font-bold text-xl md:text-2xl border-3 border-gray-900 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 transition-transform">Email me</a>
                 </div>
               </div>
         </div>
