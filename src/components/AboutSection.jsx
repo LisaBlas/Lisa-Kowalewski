@@ -13,7 +13,7 @@ const AboutSection = () => {
             </p>
             <div className="bg-yellow-400 h-3 w-40 mb-8 transform -rotate-2"></div>
             <div className="text-lg text-gray-700 font-semibold space-y-6">
-              <p className="pl-6 py-2 border-l-8 border-emerald-500 text-xl md:text-2xl font-normal">In my design work, I focus on creating things that matter - solutions that actually solve problems and have real value for people. I care less about perfect pixels and more about building complete experiences that make sense from start to finish and can be sustained over time. My process is grounded in known best practices and real evidence - testing early and often to learn what works. I aim for that state between polish and purpose, where the design feels appropriate and is ready to deliver the desired impact.</p>
+              <p className="pl-6 py-2 border-l-8 border-emerald-500 text-md md:text-xl font-normal">In my design work, I focus on creating things that matter - solutions that actually solve problems and have real value for people. I spent many years designing in the public sector so I care less about perfect pixels and more about building complete experiences that make sense from start to finish and can be sustained over time. My process is grounded in known best practices and real evidence - testing early and often to learn what works. I aim for that state between polish and purpose, where the design feels appropriate and is ready to deliver the desired impact.</p>
             </div>
           </div>
           <div className="space-y-8">

@@ -5,7 +5,8 @@ import foster from "../Images/foster.png";
 import steuer from "../Images/steuer.jpg";
 import tele from "../Images/tele.png";
 import test from "../Images/test.JPG";
-
+import think from "../Images/think.png";
+import solar from "../Images/solar.jpg";
 const cardBaseClasses =
   "bg-white shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] border-6 border-gray-900 overflow-hidden transition-all duration-300 hover:translate-x-2 hover:translate-y-2 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]";
 const tagBaseClasses = "px-4 py-2 font-bold text-sm border-2 border-gray-900";
@@ -33,11 +34,11 @@ const ProjectsSection = () => {
             <div className="relative h-80 bg-emerald-100 overflow-hidden">
               <img
                 alt="Project 1"
-                src="https://placehold.co/600x400/10b981/ffffff?text=Working+on+it!"
+                src={solar}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 transform rotate-3 bg-yellow-400 px-4 py-2 text-sm font-black text-gray-900">
-                NEW!
+                IN PROGRESS!
               </div>
             </div>
             <div className="p-8">
@@ -60,12 +61,15 @@ const ProjectsSection = () => {
             <div className="relative h-80 bg-emerald-100 overflow-hidden">
               <img
                 alt="Project 2"
-                src="https://placehold.co/600x400/047857/ffffff?text=Preview+coming"
+                src={think}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
+              <div className="absolute top-4 right-4 transform rotate-3 bg-yellow-400 px-4 py-2 text-sm font-black text-gray-900">
+                IN PROGRESS!
+              </div>
             </div>
             <div className="p-8">
-              <p className="mb-3 text-4xl font-black text-gray-900">Think Twice</p>
+              <p className="mb-3 text-4xl font-black text-gray-900">DoubleThink</p>
               <p className="mb-6 text-xl font-semibold text-gray-700">
                 Creating learning experiences and tools to train critical thinking and media literacy.
               </p>
