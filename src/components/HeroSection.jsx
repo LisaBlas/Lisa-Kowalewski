@@ -17,6 +17,9 @@ const HeroSection = () => {
           <div className="absolute inset-0 opacity-5">
             <div style={{backgroundImage: "repeating-linear-gradient(90deg, transparent, transparent 35px, rgba(0, 0, 0, 0.1) 35px, rgba(0, 0, 0, 0.1) 70px)"}} className="w-full h-full absolute top-0 left-0"></div>
           </div>
+          <div className="absolute -top-2 -right-2 bg-yellow-400 text-gray-900 font-bold text-sm md:text-lg px-4 py-2 md:px-6 md:py-3 border-4 border-gray-900 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] md:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transform -rotate-3 z-20">
+            OPEN TO WORK
+          </div>
           <div className="transform -rotate-1 relative z-10">
             <p className="text-6xl md:text-8xl lg:text-9xl font-black text-gray-900 mb-6 leading-none tracking-tight relative">
               <span>DESIGN FOR</span>
